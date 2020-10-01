@@ -1,0 +1,18 @@
+quantity = 1
+cells = 64
+summa = 0
+while 0   < cells:
+    summa = summa + quantity
+    quantity = quantity * 2
+    cells = cells - 1
+
+print(summa)
+weight = 50 / 10**9
+weight1 = weight * summa
+print(weight1)
+volume = 1.316 * weight1
+area = 502.7
+height = volume / area
+print(height)
+time = 162000000 / 100000
+print(time)
